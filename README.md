@@ -1,71 +1,113 @@
-# capacitive-mems-pressure-sensor
-COMSOL Multiphysics simulation of a capacitive MEMS pressure sensor with geometry, meshing, deformation, and sensor response analysis.
 # Capacitive MEMS Pressure Sensor — COMSOL Multiphysics
 
-## Overview
+Numerical modeling and simulation of a capacitive MEMS pressure sensor using COMSOL Multiphysics. The project includes geometry development, material definition, meshing, multiphysics setup, deformation analysis, electrostatic simulation, and sensor response analysis.
 
-This project presents the numerical modeling and simulation of a capacitive MEMS pressure sensor using COMSOL Multiphysics.
+---
 
-The model investigates the mechanical deformation of the sensor structure under applied pressure and the resulting electrical response of the capacitive sensing element.
+## 1. Project Overview
 
-## Objectives
+A capacitive MEMS pressure sensor detects applied pressure through the mechanical deformation of a movable diaphragm, which changes the capacitance between two electrodes.
 
-- Develop a basic capacitive MEMS pressure sensor model in COMSOL Multiphysics
-- Define the geometry, materials, physics interfaces, and boundary conditions
-- Generate and refine the computational mesh
-- Simulate the mechanical and electrostatic behavior of the sensor
-- Analyze deformation and sensor response
+The model was developed in COMSOL Multiphysics to study the mechanical and electrostatic behavior of the sensor and its response to applied pressure.
 
-## Simulation Workflow
+### Objectives
 
-The simulation workflow consisted of:
+- Develop the geometry of a capacitive MEMS pressure sensor
+- Define material properties and model domains
+- Generate an appropriate computational mesh
+- Apply mechanical and electrostatic boundary conditions
+- Analyze diaphragm deformation under applied pressure
+- Investigate the electrostatic behavior of the sensor
+- Study the relationship between applied pressure and sensor response
 
-1. Geometry definition
-2. Material assignment
-3. Physics and boundary-condition setup
-4. Mesh generation
-5. Multiphysics simulation
-6. Post-processing and analysis
+---
 
-## Model Geometry
+## 2. Geometry
 
-The MEMS pressure sensor structure was created and modeled in COMSOL Multiphysics.
+The MEMS pressure sensor geometry was created in COMSOL Multiphysics, including the sensing structure and relevant electrode regions.
 
-![Model Geometry](images/01_model_geometry.png)
+![Sensor Geometry](images/01_geometry.png)
 
-## Mesh
+---
 
-A computational mesh was generated for numerical analysis. The final model contained approximately 13,950 domain elements and 930 boundary elements.
+## 3. Materials
 
-![Mesh](images/02_mesh.png)
+Material properties were assigned to the different domains of the sensor model.
 
-## Simulation Results
+![Material Definition](images/02_materials.png)
 
-### Mechanical Deformation
+---
 
-The deformation of the MEMS structure was evaluated under the applied pressure.
+## 4. Mesh
 
-![Deformation](images/03_deformation.png)
+A finite-element mesh was generated for numerical simulation. The final model consisted of approximately 13,950 domain elements and 930 boundary elements.
 
-### Electrostatic Response
+![Mesh](images/03_mesh.png)
 
-The electrostatic behavior of the capacitive sensing structure was investigated.
+---
 
-![Electrostatic Response](images/04_electrostatic_response.png)
+## 5. Deformation Analysis
 
-### Sensor Response
+The mechanical response of the sensor structure was analyzed under the applied pressure. The resulting deformation of the movable structure was investigated.
 
-The simulated results were analyzed to understand the relationship between the applied pressure and the corresponding capacitive response.
+![Deformation](images/04_deformation.png)
 
-![Sensor Response](images/05_sensor_response.png)
+---
+
+## 6. Electrostatic Analysis
+
+The electrostatic behavior of the capacitive structure was simulated to investigate the electrical response of the sensor.
+
+![Electrostatic Analysis](images/05_electrostatic.png)
+
+---
+
+## 7. Final Model
+
+The completed multiphysics model combines the geometry, material properties, mesh, and defined physics interfaces for the sensor simulation.
+
+![Final Model](images/06_final_model.png)
+
+---
+
+## 8. Simulation Results
+
+The simulation results were analyzed to understand the relationship between the applied pressure and the resulting sensor response.
+
+### Result 1
+
+![Simulation Result 1](images/07_result_1.png)
+
+### Result 2
+
+![Simulation Result 2](images/08_result_2.png)
+
+---
+
+## 9. Key Learning
+
+Through this project, I gained practical experience with:
+
+- COMSOL Multiphysics
+- MEMS sensor modeling
+- Geometry construction
+- Material and domain definition
+- Boundary conditions
+- Finite-element meshing
+- Multiphysics simulation
+- Mechanical deformation analysis
+- Electrostatic analysis
+- Post-processing and interpretation of simulation results
+
+---
 
 ## Tools
 
-- COMSOL Multiphysics
-- MEMS / Microfabrication concepts
-- Multiphysics simulation
-- Numerical modeling and post-processing
+**COMSOL Multiphysics**
 
-## Key Learning
+**Finite Element Method (FEM)**
 
-This project provided practical experience in MEMS modeling, multiphysics simulation, meshing, boundary-condition setup, and interpretation of simulation results using COMSOL Multiphysics.
+**MEMS / Microtechnology**
+
+
+
