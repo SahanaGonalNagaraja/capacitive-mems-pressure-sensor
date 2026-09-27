@@ -50,7 +50,7 @@ A finite-element mesh was generated for numerical simulation. The final model co
 
 The mechanical response of the sensor structure was analyzed under the applied pressure. The resulting deformation of the movable structure was investigated.
 
-![Deformation](images/04_deformation.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/main/Deformation.png?raw=true)
 
 ---
 
@@ -58,7 +58,7 @@ The mechanical response of the sensor structure was analyzed under the applied p
 
 The electrostatic behavior of the capacitive structure was simulated to investigate the electrical response of the sensor.
 
-![Electrostatic Analysis](images/05_electrostatic.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/main/04_electrostatic_result.png?raw=true)
 
 ---
 
@@ -66,7 +66,7 @@ The electrostatic behavior of the capacitive structure was simulated to investig
 
 The completed multiphysics model combines the geometry, material properties, mesh, and defined physics interfaces for the sensor simulation.
 
-![Final Model](images/06_final_model.png)
+![image altl](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/main/06_final_model.png?raw=true)
 
 ---
 
@@ -76,11 +76,11 @@ The simulation results were analyzed to understand the relationship between the 
 
 ### Result 1
 
-![Simulation Result 1](images/07_result_1.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/main/07_result_1.png?raw=true)
 
 ### Result 2
 
-![Simulation Result 2](images/08_result_2.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/main/07_result_2.png?raw=true)
 
 ---
 
