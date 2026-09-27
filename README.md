@@ -26,7 +26,7 @@ The model was developed in COMSOL Multiphysics to study the mechanical and elect
 
 The MEMS pressure sensor geometry was created in COMSOL Multiphysics, including the sensing structure and relevant electrode regions.
 
-![Sensor Geometry](images/01_geometry.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/79ac1fb3323f26800754bb9d14b712fb368c7c0d/01_model_geometry.png)
 
 ---
 
