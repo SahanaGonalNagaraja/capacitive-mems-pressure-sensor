@@ -34,7 +34,7 @@ The MEMS pressure sensor geometry was created in COMSOL Multiphysics, including 
 
 Material properties were assigned to the different domains of the sensor model.
 
-![Material Definition](images/02_materials.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/90e1717c064687356f87c02b7af235e29dd38e14/02_materials.png)
 
 ---
 
