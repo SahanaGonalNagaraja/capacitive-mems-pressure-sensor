@@ -42,7 +42,7 @@ Material properties were assigned to the different domains of the sensor model.
 
 A finite-element mesh was generated for numerical simulation. The final model consisted of approximately 13,950 domain elements and 930 boundary elements.
 
-![Mesh](images/03_mesh.png)
+![image alt](https://github.com/SahanaGonalNagaraja/capacitive-mems-pressure-sensor/blob/6c2f2f75c182cef0b1d32b7781c4f8fdd328048a/02_mesh1.png)
 
 ---
 
